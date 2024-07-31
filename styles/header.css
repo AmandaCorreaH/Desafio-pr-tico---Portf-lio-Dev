@@ -1,0 +1,48 @@
+header{
+    background-image: url(/assets/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .introdution{
+        width: 1280px;
+        margin: auto;
+        padding: 120px 163px;
+        text-align: center;
+
+        .presentation p{
+            font: var(--subtitle);
+            color: var(--base-color-gray-500);
+            text-align: center;
+            padding-block: 56px 8px;
+        }
+        .title h1{
+            font: var(--title-lg);
+            color: var(--base-color-gray-600);
+            margin-block: 20px;
+        }
+
+        .title p{
+            font: var(--text-sm);
+            color: var(--base-color-gray-400);
+            margin-bottom: 80px;
+        }
+
+        .skills{
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+
+            .tech{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                color: var(--base-color-gray-500);
+                font: var(--text-mid);
+                background: var(--base-color-gray-300);
+                padding: 8px 16px;
+                border-radius: 999px;
+                margin-bottom: 94px;
+            }
+        }
+    }
+}
